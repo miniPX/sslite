@@ -1,8 +1,8 @@
 import type { AppProps } from "next/app";
 import { Global } from "@emotion/react";
-import { useQueryClient, QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 const Site = ({ Component, pageProps }: AppProps) => (
   <>
