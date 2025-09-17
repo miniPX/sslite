@@ -1,2 +1,1 @@
-# sslite
-station science lite
+This is SS Lite
